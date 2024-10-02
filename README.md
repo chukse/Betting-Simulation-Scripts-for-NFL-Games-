@@ -41,3 +41,16 @@ To run these scripts, you will need to install the following Python libraries. Y
 
 ```bash
 pip install xgboost pandas numpy scikit-learn
+
+## Usage
+
+### 1. Data Preparation
+
+Ensure that all the necessary CSV files (defense, passing, receiving, rushing stats) are available in the same directory as the Python scripts. The scripts will load the data from these files to process the team and player statistics for the model.
+
+### 2. Running the Script
+
+To run the scripts, use the command line and execute them as follows:
+
+```bash
+python bet_with_xgboost.py
